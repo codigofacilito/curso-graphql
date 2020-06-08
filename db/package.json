@@ -1,0 +1,25 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.6.7",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.0",
+    "graphql": "^14.3.0",
+    "graphql-server-express": "^1.4.0",
+    "graphql-tools": "^4.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.5.10"
+  }
+}
